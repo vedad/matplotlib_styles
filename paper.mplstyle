@@ -1,0 +1,54 @@
+font.family			: serif
+font.serif			: Times New Roman
+#font.serif			: Computer Modern Roman
+#font.style			: normal
+#font.weight			: bold
+text.usetex			: True
+text.latex.unicode	: True
+#mathtext.fontset	: custom
+#mathtext.default	: regular
+#mathtext.bf			: serif:bold
+#mathtext.rm			: serif
+#mathtext.fallback_to_cm		: True
+font.size			: 10
+legend.fontsize		: 10
+legend.frameon		: False
+
+axes.linewidth      : 1.0
+### Label ticks
+xtick.direction			: in
+xtick.labelsize			: 10 # was medium
+xtick.major.size		: 5 # changed from 8 (looked too large on paper)
+xtick.minor.size		: 2.5 # changed from 4
+xtick.major.pad			: 4 # was 6
+xtick.minor.pad			: 4 # was 10
+xtick.major.width	 	: 0.8 # was 1.5
+xtick.minor.width		: 0.6 # was 1.5
+xtick.top               : True
+xtick.bottom            : True
+xtick.minor.visible     : True
+xtick.major.top         : True
+xtick.major.bottom      : True
+xtick.minor.top         : True
+xtick.minor.bottom      : True
+
+ytick.direction			: in
+ytick.labelsize			: 10
+ytick.major.size		: 5 # changed from 8
+ytick.minor.size		: 2.5 # changed from 4
+ytick.major.pad         : 4 
+ytick.minor.pad         : 4 
+ytick.major.width		: 0.8
+ytick.minor.width		: 0.6
+ytick.left              : True
+ytick.right             : True
+ytick.minor.visible     : True
+ytick.major.left        : True
+ytick.major.right       : True
+ytick.minor.left        : True
+ytick.minor.right       : True
+
+
+figure.figsize          : 3.39, 2.54 # 86 mm width
+figure.dpi              : 300
+savefig.pad_inches		: 0.01 # mpl v1.1 does not support
