@@ -1,9 +1,9 @@
-font.family			: serif
-font.serif			: Times New Roman
-#font.serif			: Computer Modern Roman
+font.family			: sans-serif
+font.serif			: Computer Modern Sans Serif
 #font.style			: normal
 #font.weight			: bold
 text.usetex			: True
+text.latex.preamble : \usepackage{cmbright}
 text.latex.unicode	: True
 #mathtext.fontset	: custom
 #mathtext.default	: regular
@@ -15,8 +15,6 @@ legend.fontsize		: 10
 legend.frameon		: False
 
 axes.linewidth      : 1.0
-axes.labelsize      : 10
-axes.titlesize      : 10
 ### Label ticks
 xtick.direction			: in
 xtick.labelsize			: 10 # was medium
@@ -51,6 +49,7 @@ ytick.minor.left        : True
 ytick.minor.right       : True
 
 
-figure.figsize          : 3.39, 2.54 # 86 mm width, 3/4 height
+figure.figsize          : 3.39, 2.54 # 86 mm width
 figure.dpi              : 300
 savefig.pad_inches		: 0.01 # mpl v1.1 does not support
+savefig.transparent     : True
